@@ -15,9 +15,8 @@ p {
 
 .nav-items {
   text-decoration: none;
-  text-align: end;
+  justify-content: end;
   display: flex;
-  padding: 20px;
 }
 
 .nav-items li a {
@@ -25,7 +24,9 @@ p {
   text-decoration: none;
 }
 
-.nav-items ul {
+.menu,
+.nav-items li {
+  list-style-type: none;
 }
 
 .hero {
