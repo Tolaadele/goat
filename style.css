@@ -1,0 +1,40 @@
+body {
+  width: 100%;
+}
+
+p {
+  color: #845ec2;
+}
+
+.menu {
+  display: flex;
+  padding: 20px;
+  background-color: bisque;
+  /* margin: 20px; */
+}
+
+.nav-items {
+  text-decoration: none;
+  text-align: end;
+  display: flex;
+  padding: 20px;
+}
+
+.nav-items li a {
+  padding: 10px;
+  text-decoration: none;
+}
+
+.nav-items ul {
+}
+
+.hero {
+  background-image: url("./DM.png");
+  height: 300px;
+}
+
+.hero-content {
+  text-align: center;
+  color: #ffff;
+  padding: 50px 0px 60px 90px;
+}
