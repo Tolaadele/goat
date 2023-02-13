@@ -4,64 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <!-- <style>
-      h2 {
-        color: #845ec2;
-        background-color: aqua;
-        font-size: 55px;
-        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-      }
-    </style> -->
-
-    <title>Document</title>
+    <title>Innkeeper Website</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
-    <!-- <h1 style="color: #845ec2">This is an H1 tag</h1>
-    <h2>This is an H2 tag</h2>
-    <h3>This is an H3 tag</h3>
-    <p>This is a paragraph tag</p>
-
-    <img src="./DM.png" width="300px" height="200px" />
-    <br />
-    <p>Type of CSS using ordered lists</p>
-    <ol>
-      <li>Internal CSS</li>
-      <li>External CSS</li>
-      <li>Inline CSS</li>
-    </ol>
-    <p>Type of CSS using unordered lists</p>
-    <ul>
-      <li>Internal CSS</li>
-      <li>External CSS</li>
-      <li>Inline CSS</li>
-    </ul>
-
-    <a href="https://github.com/" target="_blank">Home</a>
-    <a href="https://github.com/" target="_blank">About</a>
-    <a href="https://github.com/" target="_blank">Products</a>
-    <a href="https://github.com/" target="_blank">Contact</a> -->
-
-    <p><b> This is a first practice</b></p>
     <div class="nav-bar">
-      <div class="menu">
-        <img src="./innkeeper-logo.png" alt="logo" width="50px" height="50px" />
-        <ul class="nav-items">
+      <div class="logo">
+        <a href="https://app.innkeeper.work">
+          <img
+            src="./images/innkeeper-logo.png"
+            alt="logo"
+            width="50px"
+            height="50px"
+        /></a>
+      </div>
+      <div class="menu-bar" id="myLinks">
+        <ul class="menu-item">
           <li><a href="#"> Home</a></li>
-          <li><a href="about.html"> About</a></li>
-          <li><a href="courses.html"> Courses</a></li>
-          <li><a href="contact.html"> Contact Us</a></li>
+          <li><a href="#">About</a></li>
+          <!-- <li class="dropdown-container"> -->
+          <div class="dropdown">
+            <button class="dropbtn">
+              Courses <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Frontend Development</a>
+              <a href="#">Digital Marketing</a>
+              <a href="#">Data Analysis</a>
+              <a href="#">Product Design</a>
+              <a href="#">Full-stack Development</a>
+            </div>
+          </div>
+          <!-- <li class="dropdown">
+            <a href="#">Courses</a> -->
+          <!-- <ul class="dropdown-content">
+              <li><a href="#">Digital Marketing</a></li>
+              <li><a href="#">Frontend Development</a></li>
+              <li><a href="#">Data Analysis</a></li>
+              <li><a href="#">Product Design</a></li>
+              <li><a href="#">Full-stack Development</a></li>
+            </ul> -->
+          <!-- </li> -->
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </div>
-      <div class="hero">
-        <div class="content">
-          <h2 class="hero-content">Learn Digital Skills In Lagos</h2>
-          <button>Get Started</button>
-        </div>
-        <form action="POST">
-          <input type="text" />
-        </form>
+      <div class="hamburger">
+        <i class="fa fa-bars"> </i>
+      </div>
+
+      <div class="button-group">
+        <button class="btn-success">Login</button>
+        <button class="btn-danger">Sign up</button>
       </div>
     </div>
   </body>

@@ -1,0 +1,45 @@
+body {
+  width: 100%;
+}
+
+p {
+  color: #845ec2;
+}
+
+.menu {
+  display: flex;
+  padding: 20px;
+  background-color: bisque;
+  /* margin: 20px; */
+}
+
+.nav-items {
+  text-decoration: none;
+  justify-content: end;
+  display: flex;
+}
+
+.nav-items li a {
+  padding: 10px;
+  text-decoration: none;
+}
+
+.menu,
+.nav-items li {
+  list-style-type: none;
+}
+
+.hero {
+  background-image: url("./DM.png");
+  height: 300px;
+}
+
+.hero-content {
+  text-align: center;
+  color: #ffff;
+  padding: 50px 0px 60px 90px;
+}
+
+/* button a {
+    text-decoration: line-through;
+  } */

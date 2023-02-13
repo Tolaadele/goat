@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="shortcut icon"
+      href="./images/innkeeper-logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>My First Page</title>
+    <style>
+      span {
+        background-color: blue;
+      }
+      #innocent {
+        background-color: #845ec2;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100px;
+      }
+
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(odd) {
+        background-color: #dddddd;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      This is a short recap
+      <br />
+      <b>This is a bold tag</b>
+      <br />
+      <i>This is an italicized tag</i>
+      <br />
+
+      <p>This is an example of an ordered list</p>
+      <p>Digital skills options in <span>innkeeper</span> talent accelerator</p>
+    </div>
+
+    <ol>
+      <li>Frontend development</li>
+      <li>Fullstack development</li>
+      <li>Data analysis</li>
+      <li>UI/UX</li>
+      <li>Digital Marketing</li>
+    </ol>
+    <p>This is an example of an unordered list</p>
+    <h5>Digital skills options in innkeeper talent accelerator</h5>
+    <ul>
+      <li>Frontend development</li>
+      <li>Fullstack development</li>
+      <li>Data analysis</li>
+      <li>UI/UX</li>
+      <li>Digital Marketing</li>
+    </ul>
+    <marquee> Alex did the assignment </marquee>
+
+    <img
+      src="./images/teddy.jpeg"
+      alt="teddy-image"
+      width="150px"
+      height="150px"
+    />
+    <audio controls>
+      <source src="./audio/slaves.mp3" type="audio/mp3" />
+    </audio>
+
+    <video controls width="200px" height="150px">
+      <source src="./videos/facebook-ads.mp4" />
+    </video>
+
+    <p>Sign up here</p>
+    <form>
+      <label for="firstname">First Name:</label>
+      <input
+        type="text"
+        placeholder="First Name"
+        name="firstname"
+        id="firstname"
+        required
+      />
+      <br />
+      <label for="lastname">Last Name:</label>
+      <input
+        type="text"
+        placeholder="lastname"
+        name="lastname"
+        id="lastname"
+        required
+      />
+      <br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        placeholder="email"
+        name="email"
+        id="email"
+        required
+      />
+      <br />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        placeholder="password"
+        name="password"
+        id="password"
+        required
+      />
+      <br />
+      <button>Submit</button>
+    </form>
+    <table>
+      <tr>
+        <th>S/N</th>
+        <th>Country</th>
+        <th>Name</th>
+        <th>Course</th>
+      </tr>
+      <tr>
+        <td>1.</td>
+        <td>Nigeria</td>
+        <td>Alex</td>
+        <td>Frontend</td>
+      </tr>
+      <tr id="innocent">
+        <td>2.</td>
+        <td>Liberia</td>
+        <td>Innocent</td>
+        <td>Fullstack</td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td>Ghana</td>
+        <td>David</td>
+        <td>Fullstack</td>
+      </tr>
+      <tr>
+        <td>4.</td>
+        <td>Algeria</td>
+        <td>Abdul</td>
+        <td>Frontend</td>
+      </tr>
+    </table>
+  </body>
+</html>
