@@ -1,0 +1,4 @@
+JavaScript
+* Create an HTML form, use JavaScript to display a next form field option depending on the selection of the previous form field. 
+* Develop a simple calculator and weather app with JavaScript
+* 

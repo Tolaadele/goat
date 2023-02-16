@@ -1,0 +1,10 @@
+TASKS FOR TODAY
+
+* align menu-items to the right
+* align menu-items to center 
+* perform a drop-down list item for one of the menu item
+* add login and sign up buttons to the right
+* media query for page 
+* take the HTML exercise on w3schools.com and screenshot your score result to https://bit.ly/FrontendEvaluationForm
+* remember to submit your assignment on Instagram as a comment on the post for introduction to code editor
+
