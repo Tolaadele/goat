@@ -183,13 +183,91 @@ button {
   font-size: 35px;
 }
 
-.hero-form input,
-.btn-search {
+.hero form {
+  padding: 0;
+  margin: 0;
+}
+.hero-form input {
   padding: 10px 30px 10px 5px;
   border-radius: 5px;
   border: solid 1px;
 }
-.btn-search {
+/* .btn-search {
   text-align: center;
   background-color: #dfdfdf;
+} */
+
+.hero-form .input-container {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+
+.hero-form .input-container i {
+  position: absolute;
+  right: 5px;
+  font-size: 0.8em;
+}
+/* .hero-form, */
+.btn-search {
+  width: fit-content;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px;
+}
+
+.container {
+  padding: 10px 100px;
+}
+.category-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category-text h4 {
+  font-size: 25px;
+  font-weight: 400;
+}
+.category-text h5 {
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.card-image,
+.card-desc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-image img {
+  flex: 1;
+  margin-right: 10px;
+  max-width: 25%;
+  border-radius: 5px;
+}
+
+.card-desc h4 {
+  flex: 2;
+}
+
+.card-scroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-scroll h4 {
+  padding: 5px 10px;
+  margin: 0 10px;
+  background: #ffffff;
+  border: 1px solid #cacaca;
+  border-radius: 10px;
+}
+
+.card-scroll i {
+  background-color: #b2b2b2;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #ffffff;
 }
