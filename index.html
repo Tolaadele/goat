@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Innkeeper Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,15 +31,11 @@
     <div class="nav-bar">
       <div class="logo">
         <a href="https://app.innkeeper.work">
-          <img
-            src="./images/innkeeper-logo.png"
-            alt="logo"
-            width="50px"
-            height="50px"
+          <img src="./images/innkeeper-logo.png" alt="logo"
         /></a>
       </div>
       <div class="menu-bar" id="myLinks">
-        <ul class="menu-item">
+        <ul>
           <li><a href="#"> Home</a></li>
           <li><a href="#">About</a></li>
           <!-- <li class="dropdown-container"> -->
@@ -51,16 +51,6 @@
               <a href="#">Full-stack Development</a>
             </div>
           </div>
-          <!-- <li class="dropdown">
-            <a href="#">Courses</a> -->
-          <!-- <ul class="dropdown-content">
-              <li><a href="#">Digital Marketing</a></li>
-              <li><a href="#">Frontend Development</a></li>
-              <li><a href="#">Data Analysis</a></li>
-              <li><a href="#">Product Design</a></li>
-              <li><a href="#">Full-stack Development</a></li>
-            </ul> -->
-          <!-- </li> -->
           <li><a href="#">Blog</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
@@ -97,18 +87,41 @@
           <h5 class="#">View All (10)</h5>
         </div>
 
-        <div class="card-image">
-          <img src="/images/categories/card1.jpg" alt="" />
-          <img src="/images/categories/card2.jpg" alt="" />
-          <img src="/images/categories/card3.jpg" alt="" />
-          <img src="/images/categories/card4.jpg" alt="" />
+        <div class="card-wrapper">
+          <div class="card-item">
+            <div class="card-image">
+              <img src="/images/categories/card1.jpg" alt="" />
+            </div>
+            <div class="card-desc">
+              <h4>Destination Weddings</h4>
+            </div>
+          </div>
+          <div class="card-item">
+            <div class="card-image">
+              <img src="/images/categories/card2.jpg" alt="" />
+            </div>
+            <div class="card-desc">
+              <h4>Honeymoon &amp; Travel Weddings</h4>
+            </div>
+          </div>
+          <div class="card-item">
+            <div class="card-image">
+              <img src="/images/categories/card3.jpg" alt="" />
+            </div>
+            <div class="card-desc">
+              <h4>Videographer Weddings</h4>
+            </div>
+          </div>
+          <div class="card-item">
+            <div class="card-image">
+              <img src="/images/categories/card4.jpg" alt="" />
+            </div>
+            <div class="card-desc">
+              <h4>Celebrants</h4>
+            </div>
+          </div>
         </div>
-        <div class="card-desc">
-          <h4>Destination Weddings</h4>
-          <h4>Honeymoon & Travel Weddings</h4>
-          <h4>Videographer Weddings</h4>
-          <h4>Celebrants</h4>
-        </div>
+
         <div class="card-scroll">
           <i class="fa fa-backward" aria-hidden="true"></i>
           <h4>1</h4>
